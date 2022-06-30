@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  * functon main - Entry point
- * Description: 'using printf function to output to std output 
+ * Description: 'the program's description' 
  * Return: Always 0 (Success)
  */
 int main(void)
