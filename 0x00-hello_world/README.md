@@ -1,1 +1,1 @@
-generate a cisfun file
+using puts functon
