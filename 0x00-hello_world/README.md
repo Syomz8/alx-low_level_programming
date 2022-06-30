@@ -1,1 +1,1 @@
-using puts functon
+using puts function
