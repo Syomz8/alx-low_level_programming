@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*
- * functon main - Entry point
- * Description: 'the program's description' 
+ * functon main - Entry point  
  * Return: Always 0 (Success)
  */
 int main(void) /* Description: 'the program's description' */
