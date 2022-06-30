@@ -1,1 +1,1 @@
-compiles without linking
+generate a cisfun file
