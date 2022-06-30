@@ -4,7 +4,7 @@
  * Description: 'the program's description' 
  * Return: Always 0 (Success)
  */
-int main(void) /*Description: 'the person's description' */
+int main(void) /*Description: 'the person's description'
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
