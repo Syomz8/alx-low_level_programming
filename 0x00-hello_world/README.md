@@ -1,1 +1,1 @@
-Using printf function
+using printf functon
