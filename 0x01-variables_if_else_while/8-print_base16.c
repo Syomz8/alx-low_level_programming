@@ -5,13 +5,16 @@
  */
 int main(void)
 {
-	int num;
+	char c;
 
-	char letter;
-
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-	for (letter = 'a'; letter <= 'f'; letter++)
-		putchar('\n');
+	for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
+	}	 
+	for (c = 'a'; c <= 'f'; c++)
+	{	
+		putchar(c);
+	}
+	putchar('\n');
 	return (0);
 }
