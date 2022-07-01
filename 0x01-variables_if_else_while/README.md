@@ -1,1 +1,1 @@
-three combinations of digits which are dissimilar
+all possible combination of two numbers
