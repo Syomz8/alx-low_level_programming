@@ -16,7 +16,7 @@ int main(void)
 				if (c < i && i < k)
 				{
 					putchar(c);
-					putchat(i);
+					putchar(i);
 					putchar(k);
 
 					if (c != '7')
