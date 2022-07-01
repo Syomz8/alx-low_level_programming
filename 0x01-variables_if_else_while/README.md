@@ -1,1 +1,1 @@
-prints all possible combinations of single-digit numbers.
+three combinations of digits which are dissimilar
