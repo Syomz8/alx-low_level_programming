@@ -1,1 +1,1 @@
-to determine the positive, negative, and zero
+prints all possible combinations of single-digit numbers.
