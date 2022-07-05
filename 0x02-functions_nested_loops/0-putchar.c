@@ -4,7 +4,7 @@
 * main -Entry point
 * Return: Always  0
 */
-int main (void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
@@ -14,6 +14,6 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-return 0;
-}	
-
+-putchar('\n');
+return (0);
+}
