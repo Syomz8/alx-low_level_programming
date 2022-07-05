@@ -1,1 +1,1 @@
-printing _putchar on standard output
+functions and nested loops
