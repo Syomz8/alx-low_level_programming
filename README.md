@@ -1,1 +1,1 @@
-creating static libraries in C
+low level programming using C
