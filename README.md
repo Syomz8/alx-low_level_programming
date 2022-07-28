@@ -1,1 +1,1 @@
-doing more malloc functions in C
+creating malloc functions using C
