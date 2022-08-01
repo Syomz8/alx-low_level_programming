@@ -1,3 +1,14 @@
 #include <stdio.h>
-#include "3-function_like_macro.h"
-#include "3-function_like_macro.h"
+
+/**
+ * main - Prints the name of the file of the program
+ *        was compiled from, followed by a new line.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+
+	return (0);
+}
