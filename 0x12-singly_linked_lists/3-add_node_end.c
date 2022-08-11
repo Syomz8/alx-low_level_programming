@@ -1,29 +1,32 @@
+#include <stdlib.h>
+#include <string.h>
 #include "lists.h"
 
 /**
- * _strlen - lenght of string
- * @s:char
- * Return:int
+ * _strlen - finds the length of a string
+ * @str: string to find the length of
+ *
+ * Return: length of string
  */
-unsigned int _strlen(char *s)
+unsigned int _strlen(char *str)
 {
-	int i;
+	unsigned int i;
 
-		for (i = 0; s[i] != '\0'; i++)
-		{
-			continue;
-		}
-return (i);
+	for (i = 0; str[i]; i++)
+		;
+	return (i);
 }
+
 /**
- * add_node_end - add new node at the end of the list
- * @head:pointer to ponter to lined list
- * @str : ponter to string inside the list
- * Return:pointer to a node at the end of the list
+ * add_node_end - adds a new node to the end of linked list
+ * @head: double pointer to a linked list
+ * @str: string to add to the new node
+ *
+ * Return: pointer to the new node
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new, *last;
+	list_t *new, *tmp;
 
 	if (str == NULL)
 		return (NULL);
@@ -41,15 +44,11 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (*head == NULL)
 	{
 		*head = new;
+		return (new);
 	}
-	else
-	{
-	last = *head;
-		while (last->next)
-		{
-		last = last->next;
-		}
-	last->next = new;
-	}
+	tmp = *head;
+	while (tmp->next)
+		tmp = tmp->next;
+	tmp->next = new;
 	return (new);
 }
