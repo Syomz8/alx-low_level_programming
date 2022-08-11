@@ -18,7 +18,7 @@ typedef struct list_s
 	struct list_s *next;
 } list_t;
 
-unsigned int _strlen(char *str);
+unsigned int _strlen(char);
 int _putchar(char);
 int putchar(const char *string);
 size_t print_list(const list_t *h);
